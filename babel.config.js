@@ -1,5 +1,3 @@
-const { plugin } = require("twrnc");
-
 module.exports = function(api) {
   api.cache(true);
   return {

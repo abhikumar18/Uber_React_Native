@@ -5,12 +5,13 @@ import { store } from './store';
 import HomeScreen from './screens/HomeScreen';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import "react-native-gesture-handler";
+import { createStackNavigator } from '@react-navigation/stack';
 import MapScreen from './screens/MapScreen';
 
 export default function App() {
 
-  const Stack = createNativeStackNavigator();
+  const Stack = createStackNavigator();
   return (
     <Provider store={store}>
       <NavigationContainer>

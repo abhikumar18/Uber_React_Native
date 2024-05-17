@@ -7,7 +7,7 @@ const MapScreen = () => {
       <Text>Here is the map stuff...</Text>
     </View>
   )
-}
+} 
 
 export default MapScreen
 
